@@ -1,0 +1,13 @@
+{% include document_head.html %}
+
+<div id="content">
+    {% if page.video.src %}
+        <video poster="{{page.video.poster}}" autoplay loop>
+            <source src="{{page.video.src}}" type="video/mp4" />
+        </video>
+    {% endif %}
+
+    {{ content }}
+</div>
+
+{% include document_foot.html %}

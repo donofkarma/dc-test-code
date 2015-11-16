@@ -1,0 +1,30 @@
+# Locations
+destination: ./_site
+
+# READING
+encoding: 'utf-8'
+exclude: [
+    'bower_components',
+    'node_modules',
+    'src',
+    'bower.json',
+    'CHANGELOG.md',
+    'Gemfile',
+    'Gemfile.lock',
+    'Gruntfile.js',
+    'package.json',
+    'README.md'
+]
+include: ['.htaccess']
+keep_files: ['assets']
+
+# Outputting
+permalink: /:year/:month/:title
+
+# Conversion
+kramdown:
+    auto_ids: false
+    hard_wrap: true
+    input: GFM
+    parse_block_html: true
+    parse_span_html: true

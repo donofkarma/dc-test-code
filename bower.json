@@ -1,0 +1,12 @@
+{
+    "name": "dc-test-code",
+    "description": "DC Test Code",
+    "version": "0.0.1",
+    "author": "Jasal Vadgama - http://blacklabelcreative.com/",
+    "private": true,
+    "main": "/",
+    "dependencies": {
+        "normalize-scss": "3.0.x",
+        "sass-mq": "latest"
+    }
+}

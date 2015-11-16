@@ -1,0 +1,36 @@
+{
+    "name": "dc-test-code",
+    "description": "DC Test Code",
+    "version": "0.0.1",
+    "author": "Jasal Vadgama - http://blacklabelcreative.com/",
+    "repository": {
+        "type": "git",
+        "url": "tbc"
+    },
+    "main": "/",
+    "scripts": {
+        "test": "grunt test",
+        "build": "grunt build",
+        "deploy": "grunt deploy",
+        "all": "grunt"
+    },
+    "engines": {
+        "node": ">= 4.1.2"
+    },
+    "devDependencies": {
+        "browserify": "11.2.x",
+        "grunt": "0.4.x",
+        "grunt-browserify": "3.8.x",
+        "grunt-concurrent": "2.1.x",
+        "grunt-contrib-clean": "0.6.x",
+        "grunt-contrib-copy": "0.8.x",
+        "grunt-contrib-cssmin": "0.14.x",
+        "grunt-contrib-jshint": "0.11.x",
+        "grunt-contrib-uglify": "0.9.x",
+        "grunt-contrib-watch": "0.6.x",
+        "grunt-jekyll": "0.4.x",
+        "grunt-sass": "1.0.x",
+        "jquery": "2.1.x",
+        "matchdep": "1.0.x"
+    }
+}

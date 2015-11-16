@@ -1,0 +1,10 @@
+.video {
+    &-background {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        @include translate(-50%, -50%);
+    }
+}

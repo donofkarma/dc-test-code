@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    color: $copy;
+    font-family: $BodyCopy;
+    font-size: 1rem;
+    line-height: 1.2;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.visually-hidden {
+    @include visually-hidden;
+}
+
+h1, h2 {
+    font-family: $HeadingCopyLight;
+    font-weight: normal;
+
+    strong {
+        font-family: $HeadingCopyBold;
+        font-weight: normal;
+    }
+}
+h1 {
+    margin: 2rem 0 1.8rem;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+h2 {
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+p {
+    margin: 0 0 1rem;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        text-decoration: underline;
+    }
+}

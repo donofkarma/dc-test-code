@@ -1,0 +1,14 @@
+.header {
+    float: left;
+    width: 175px;
+    min-height: 100vh;
+    background: $bio-grey;
+    overflow: auto;
+
+    .site-title {
+        display: block;
+        margin: 55px auto 45px;
+        width: 65px;
+        height: 35px;
+    }
+}

@@ -1,0 +1,50 @@
+.container-fluid {
+    position: relative;
+    margin: 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.page-wrapper {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.no-margin-horizontal {
+    margin-right: 0;
+    margin-left: 0;
+}
+.no-padding-horizontal {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+// hide stuff at breakpoints
+.xs-hidden {
+    @include mq($until: small) {
+        display: none !important;
+    }
+}
+.sm-hidden {
+    @include mq($from: small, $until: medium) {
+        display: none !important;
+    }
+}
+.md-hidden {
+    @include mq($from: medium, $until: large) {
+        display: none !important;
+    }
+}
+.lg-hidden {
+    @include mq($from: large, $until: wide) {
+        display: none !important;
+    }
+}
+.wi-hidden {
+    @include mq($from: wide) {
+        display: none !important;
+    }
+}

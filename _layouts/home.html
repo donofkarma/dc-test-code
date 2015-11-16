@@ -1,13 +1,15 @@
 {% include document_head.html %}
 
-<div id="content">
+<main id="content">
     {% if page.video.src %}
-        <video poster="{{page.video.poster}}" autoplay loop>
+        <video autoplay class="video-background" loop poster="{{page.video.poster}}">
             <source src="{{page.video.src}}" type="video/mp4" />
         </video>
     {% endif %}
 
-    {{ content }}
-</div>
+    <div class="content-home">
+        {{ content }}
+    </div>
+</main>
 
 {% include document_foot.html %}

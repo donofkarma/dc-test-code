@@ -1,8 +1,12 @@
 ---
 layout: two-column
+
 title: How We Work
-meta_title: Meta title
-meta_description: Meta description
+
+seo:
+    meta_title: Meta title
+    meta_description: Meta description
+
 introduction: This is some introduction copy
 ---
 

@@ -1,8 +1,12 @@
 ---
 layout: default
+
+
 title: What We Do
-meta_title: Meta title
-meta_description: Meta description
+
+seo:
+    meta_title: Meta title
+    meta_description: Meta description
 ---
 
 <<< small

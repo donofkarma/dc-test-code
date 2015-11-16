@@ -1,6 +1,6 @@
 ---
 layout: default
-
+theme: what-we-do
 
 title: What We Do
 

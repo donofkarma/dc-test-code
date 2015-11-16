@@ -1,5 +1,6 @@
 ---
 layout: home
+theme: home
 
 title: Website Name
 
@@ -12,7 +13,7 @@ video:
     src: /assets-content/videos/home-video.mp4
 ---
 
-Digital Change Agents
+# Digital **Change** Agents
 
 - Logo one
 - Logo two

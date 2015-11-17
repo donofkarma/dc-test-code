@@ -8,25 +8,31 @@ seo:
     meta_title: Meta title
     meta_description: Meta description
 
+hero: /assets-content/images/how-we-work-hero.jpg
+
 introduction: This is some introduction copy
 ---
 
-<<< small
+<<< tile
 ## Digital **Strategy**
+---
 This is some supporting copy
 >>>
 
-<<< small
+<<< tile
 ## Service **Design**
+---
 This is some supporting copy
 >>>
 
-<<< small
+<<< tile
 ## E-commerce **Solutions**
+---
 This is some supporting copy
 >>>
 
-<<< small
+<<< tile
 ## Digital **Retail**
+---
 This is some supporting copy
 >>>

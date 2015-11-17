@@ -3,30 +3,24 @@
     margin-bottom: 3.5%;
     margin-left: 5%;
     width: 47.5%;
-    min-height: 410px;
-
-    h2 {
-        strong {
-            display: block;
-        }
-    }
-
-    hr {
-        margin: 0 0 20px;
-        border-color: black;
-        border-width: 2px 0 0;
-
-        &:before {
-            content: "";
-            display: block;
-            margin-top: -7px;
-            width: 50%;
-            border-top: 7px solid black;
-        }
-    }
+    height: 48.25%;
+    overflow: auto;
 
     .how-we-work & {
         &:nth-child(2n + 1) {
+            margin-left: 0;
+        }
+    }
+
+    .what-we-do & {
+        margin-bottom: 1%;
+        margin-left: 1%;
+        padding: 30px;
+        width: 32.66666%;
+        height: 49.5%;
+        background: $grey-light-alt;
+
+        &:nth-child(3n + 1) {
             margin-left: 0;
         }
     }

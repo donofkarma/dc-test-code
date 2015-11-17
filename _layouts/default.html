@@ -1,7 +1,15 @@
 {% include document_head.html %}
 
 <main id="content">
-    {{ content }}
+    {% if page.hero %}
+        <div class="hero">
+            <img alt="{{ page.title }}" src="{{ page.hero }}" />
+        </div>
+    {% endif %}
+
+    <div class="content-wrapper">
+        {{ content }}
+    </div>
 </main>
 
 {% include document_foot.html %}

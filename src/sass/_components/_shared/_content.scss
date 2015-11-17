@@ -10,6 +10,8 @@
     &-wrapper {
         @include clearfix;
         padding: 60px;
+        min-height: 100vh;
+        height: 100%;
     }
 }
 

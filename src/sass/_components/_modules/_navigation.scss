@@ -1,14 +1,15 @@
 .nav {
     ul {
         @include reset-list;
-    }
 
-     a {
-        display: block;
-        padding: 10px 15px;
-        color: $grey-light;
-        font-family: $HeadingCopyBold;
-        font-size: 0.8rem;
-        text-transform: uppercase;
-     }
+        a {
+            display: block;
+            padding: 10px 15px;
+            color: $grey-light;
+            font-family: $HeadingCopyBold;
+            font-size: 0.8rem;
+            line-height: 0.8rem;
+            text-transform: uppercase;
+        }
+    }
 }

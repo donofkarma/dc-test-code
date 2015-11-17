@@ -1,13 +1,13 @@
 ---
 layout: default
 theme: news-and-views
-order: 3
+order: 1
 
-title: News & Views
+title: Blog
 
 seo:
   meta_title: Meta title
   meta_description: Meta description
 ---
 
-# News
+# Blog

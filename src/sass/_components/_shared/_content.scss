@@ -3,5 +3,18 @@
     float: left;
     width: calc(100% - 175px);
     height: 100vh;
-    overflow: hidden;
+    overflow: scroll;
+}
+
+.content {
+    &-wrapper {
+        @include clearfix;
+        padding: 60px;
+    }
+}
+
+.introduction {
+    font-family: $HeadingCopyBold;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
 }

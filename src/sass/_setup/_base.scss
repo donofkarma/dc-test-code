@@ -11,9 +11,9 @@ body {
     font-family: $BodyCopy;
     font-size: 1rem;
     line-height: 1.2;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: subpixel-antialiased;
-    -webkit-font-smoothing: antialiased;
+    // -moz-osx-font-smoothing: grayscale;
+    // -webkit-font-smoothing: subpixel-antialiased;
+    // -webkit-font-smoothing: antialiased;
 }
 
 
@@ -22,6 +22,7 @@ body {
 }
 
 h1, h2 {
+    margin-top: 0;
     font-family: $HeadingCopyLight;
     font-weight: normal;
 
@@ -33,11 +34,11 @@ h1, h2 {
 h1 {
     margin: 2rem 0 1.8rem;
     font-size: 1.2rem;
-    line-height: 1.2rem;
+    line-height: 1;
 }
 h2 {
-    font-size: 1rem;
-    line-height: 1.2rem;
+    font-size: 1.8rem;
+    line-height: 1.2;
 }
 
 p {

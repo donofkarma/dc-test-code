@@ -1,17 +1,17 @@
-.container-fluid {
-    position: relative;
-    margin: 0 auto;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    width: 100%;
-    max-width: 1200px;
-}
+// .container-fluid {
+//     position: relative;
+//     margin: 0 auto;
+//     padding-right: 1rem;
+//     padding-left: 1rem;
+//     width: 100%;
+//     max-width: 1200px;
+// }
 
-.page-wrapper {
-    position: relative;
-    min-height: 100vh;
-    overflow: hidden;
-}
+// .page-wrapper {
+//     position: relative;
+//     min-height: 100vh;
+//     overflow: hidden;
+// }
 
 .no-margin-horizontal {
     margin-right: 0;
@@ -20,6 +20,27 @@
 .no-padding-horizontal {
     padding-right: 0;
     padding-left: 0;
+}
+
+// main page columns
+.col {
+    &-small,
+    &-large {
+        float: left;
+        padding-left: 3.5%;
+
+        &:first-child {
+            padding-left: 0;
+        }
+    }
+
+    &-small {
+        width: 31.33333%;
+    }
+
+    &-large {
+        width: 68.66666%;
+    }
 }
 
 // hide stuff at breakpoints

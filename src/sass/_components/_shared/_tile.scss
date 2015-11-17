@@ -1,0 +1,33 @@
+.tile {
+    float: left;
+    margin-bottom: 3.5%;
+    margin-left: 5%;
+    width: 47.5%;
+    min-height: 410px;
+
+    h2 {
+        strong {
+            display: block;
+        }
+    }
+
+    hr {
+        margin: 0 0 20px;
+        border-color: black;
+        border-width: 2px 0 0;
+
+        &:before {
+            content: "";
+            display: block;
+            margin-top: -7px;
+            width: 50%;
+            border-top: 7px solid black;
+        }
+    }
+
+    .how-we-work & {
+        &:nth-child(2n + 1) {
+            margin-left: 0;
+        }
+    }
+}

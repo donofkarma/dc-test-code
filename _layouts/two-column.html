@@ -1,12 +1,20 @@
 {% include document_head.html %}
 
 <main id="content">
-    <div class="col-small">
-        <p>{{ page.introduction }}</p>
-    </div>
+    {% if page.hero != '' %}
+        <div class="hero">
+            <img alt="{{ page.title }}" src="{{ page.hero }}" />
+        </div>
+    {% endif %}
 
-    <div class="col-large">
-        {{ content }}
+    <div class="content-wrapper">
+        <div class="col-small introduction">
+            <p>{{ page.introduction }}</p>
+        </div>
+
+        <div class="col-large">
+            {{ content }}
+        </div>
     </div>
 </main>
 

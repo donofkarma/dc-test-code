@@ -2,9 +2,11 @@
 
 <main id="content">
     {% if page.video.src %}
-        <video autoplay class="video-background" loop poster="{{page.video.poster}}">
-            <source src="{{page.video.src}}" type="video/mp4" />
-        </video>
+        <div class="video-container">
+            <video autoplay class="video-background" loop poster="{{page.video.poster}}">
+                <source src="{{page.video.src}}" type="video/mp4" />
+            </video>
+        </div>
     {% endif %}
 
     <div class="content-home">

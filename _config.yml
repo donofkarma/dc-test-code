@@ -1,3 +1,6 @@
+prose:
+    media: 'assets-content/images'
+
 # Locations
 destination: ./_site
 

@@ -9,32 +9,32 @@ seo:
     meta_description: Meta description
 ---
 
-<<< small
+<<< tile
 ## Digital **Strategy**
 This is some supporting copy
 >>>
 
-<<< small
+<<< tile
 ## Service **Design**
 This is some supporting copy
 >>>
 
-<<< small
+<<< tile
 ## E-commerce **Solutions**
 This is some supporting copy
 >>>
 
-<<< small
+<<< tile
 ## Digital **Retail**
 This is some supporting copy
 >>>
 
-<<< small
+<<< tile
 ## Connected **Products**
 This is some supporting copy
 >>>
 
-<<< small
+<<< tile
 ## Digital **Marketing**
 This is some supporting copy
 >>>

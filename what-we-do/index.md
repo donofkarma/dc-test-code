@@ -1,6 +1,7 @@
 ---
 layout: default
 theme: what-we-do
+order: 1
 
 title: What We Do
 

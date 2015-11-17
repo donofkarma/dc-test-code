@@ -1,6 +1,7 @@
 ---
 layout: two-column
 theme: how-we-work
+order: 2
 
 title: How We Work
 

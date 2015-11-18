@@ -33,14 +33,13 @@ $easing: ease-out;
 
 
 /* Fonts */
-$BodyFont: 'Futura Light';
-@include font-face($name: $BodyFont, $filename: 'futura_light-webfont');
-$BodyCopy: $BodyFont, Helvetica, Arial, sans-serif;
+// body copy
+@include font-face($name: 'Futura Light', $filename: 'futura_light-webfont');
+$BodyCopy: 'Futura Light', Helvetica, Arial, sans-serif;
 
-$HeadingFontLight: 'VAG Rounded Light';
-@include font-face($name: $HeadingFontLight, $filename: 'vag_rounded_light-webfont');
-$HeadingCopyLight: $HeadingFontLight, Helvetica, Arial, sans-serif;
+// headings
+@include font-face($name: 'VAG Rounded Light', $filename: 'vag_rounded_light-webfont');
+$HeadingCopyLight: 'VAG Rounded Light', Helvetica, Arial, sans-serif;
 
-$HeadingFontBold: 'VAG Rounded Bold';
-@include font-face($name: $HeadingFontBold, $filename: 'vag_rounded_bold-webfont');
-$HeadingCopyBold: $HeadingFontBold, Helvetica, Arial, sans-serif;
+@include font-face($name: 'VAG Rounded Bold', $filename: 'vag_rounded_bold-webfont');
+$HeadingCopyBold: 'VAG Rounded Bold', Helvetica, Arial, sans-serif;

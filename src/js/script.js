@@ -17,6 +17,14 @@ window.DCTestCode = (function() {
 
     // DOM ready
     $(function() {
+
+        if ($('body').hasClass('article')) {
+            var $h1 = $('h1');
+            var copy = $h1.text();
+
+            $h1.html(copy.replace(/(\w+$)/, '<strong>$1</strong>'));
+        }
+
     });
 
     // Page ready

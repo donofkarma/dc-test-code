@@ -1,5 +1,6 @@
 prose:
     media: 'assets-content/images'
+    rooturl: '/'
 
 # Locations
 destination: ./_site

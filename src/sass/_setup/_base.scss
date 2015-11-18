@@ -25,24 +25,28 @@ h1, h2 {
     margin-top: 0;
     font-family: $HeadingCopyLight;
     font-weight: normal;
-
-    strong {
-        font-family: $HeadingCopyBold;
-        font-weight: normal;
-    }
-}
-h1 {
-    margin: 2rem 0 1.8rem;
-    font-size: 1.2rem;
-    line-height: 1;
-}
-h2 {
-    font-size: 1.4rem;
     line-height: 1.2;
     text-transform: uppercase;
 
     strong {
         display: block;
+        font-family: $HeadingCopyBold;
+        font-weight: normal;
+    }
+}
+h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1;
+
+    strong {
+        font-size: 3.4rem;
+    }
+}
+h2 {
+    font-size: 1.4rem;
+
+    strong {
         font-size: 1.8rem;
     }
 }
@@ -62,7 +66,8 @@ hr {
 }
 
 p {
-    margin: 0 0 1rem;
+    margin: 0 0 1.4rem;
+    line-height: 1.6;
 }
 
 a {
@@ -71,5 +76,32 @@ a {
     &:hover,
     &:focus {
         text-decoration: underline;
+    }
+}
+
+blockquote {
+    margin: 0 0 1.4rem;
+    padding: 20px 0;
+    border: 1px solid black;
+    border-width: 1px 0;
+    font-family: $HeadingCopyLight;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+
+    p {
+        margin: 0;
+        line-height: 1.2;
+
+        // this is a fake citation
+        + p {
+            margin-top: 1rem;
+            font-family: $HeadingCopyBold;
+            font-size: 1rem;
+            text-align: right;
+
+            em {
+                font-style: normal;
+            }
+        }
     }
 }

@@ -17,6 +17,9 @@
 
 .introduction {
     font-family: $HeadingCopyBold;
-    font-size: 1.3rem;
-    line-height: 1.3rem;
+    font-size: 1.32rem;
+
+    p {
+        line-height: 1.4;
+    }
 }

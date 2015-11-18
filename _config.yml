@@ -22,7 +22,7 @@ include: ['.htaccess']
 keep_files: ['assets']
 
 # Outputting
-permalink: /:year/:month/:title
+permalink: /news-and-views/:title
 
 # Conversion
 kramdown:

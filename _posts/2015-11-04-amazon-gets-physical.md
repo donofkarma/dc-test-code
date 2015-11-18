@@ -2,7 +2,7 @@
 layout: article
 theme: news-and-views article
 
-title: Amazon gets <strong>physical</strong>
+title: Amazon gets physical
 category: tbc
 author: Payment Eye
 featured_image: /assets-content/images/news-and-views/amazon-gets-physical.jpg

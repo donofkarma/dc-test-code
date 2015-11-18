@@ -2,7 +2,7 @@
 layout: article
 theme: news-and-views article
 
-title: Man on The <strong>Moon</strong>
+title: Man on The Moon
 category: tbc
 author: The Guardian
 featured_image: /assets-content/images/news-and-views/man-on-the-moon.jpg

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: news-and-views
 theme: news-and-views
 order: 3
 
@@ -9,5 +9,3 @@ seo:
   meta_title: Meta title
   meta_description: Meta description
 ---
-
-# News

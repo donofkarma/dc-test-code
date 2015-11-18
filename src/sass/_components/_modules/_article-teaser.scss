@@ -1,0 +1,98 @@
+.article {
+    &-list {
+        @include reset-list;
+
+        li {
+            position: relative;
+            float: left;
+            width: 66.66666%;
+
+            &:before {
+                content: "";
+                display: block;
+                float: left;
+                padding-bottom: 40%;
+                width: 0;
+                height: 0;
+            }
+
+            &:nth-child(2n) {
+                .article-teaser-image {
+                    right: 0;
+                    left: auto;
+                }
+
+                .article-teaser-copy {
+                    right: auto;
+                    left: 0;
+                }
+            }
+        }
+    }
+
+    &-teaser {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        text-transform: uppercase;
+
+        &-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 100%;
+            overflow: hidden;
+
+            img {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                min-width: 100%;
+                min-height: 100%;
+                @include translate(-50%, -50%);
+            }
+        }
+
+        &-copy {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 30px;
+            width: 50%;
+            height: 100%;
+        }
+
+        &-date {
+            font-family: $HeadingCopyLight;
+            font-size: 1.3rem;
+
+            strong {
+                font-family: $HeadingCopyBold;
+                font-size: 2.6rem;
+            }
+        }
+
+        &-meta {
+            position: absolute;
+            right: 30px;
+            bottom: 30px;
+            left: 30px;
+
+            span {
+                display: block;
+            }
+        }
+
+        &-author {
+            margin-bottom: 0.4rem;
+        }
+
+        &-title {
+            font-family: $HeadingCopyBold;
+            font-size: 1.4rem;
+            line-height: 1.4;
+        }
+    }
+}

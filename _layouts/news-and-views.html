@@ -1,0 +1,26 @@
+{% include document_head.html %}
+
+<main id="content">
+    <div class="content-wrapper">
+        <ul class="article-list">
+        {% for post in site.posts %}
+            <li>
+                <a class="article-teaser" href="{{ post.url }}">
+                    <div class="article-teaser-image">
+                        <img alt="{{ post.title }}" src="{{ post.featured_image }}" />
+                    </div>
+                    <div class="article-teaser-copy">
+                        <span class="article-teaser-date"><strong>{{ post.date | date: "%d" }}</strong> {{ post.date | date: "%B" }}</span>
+                        <div class="article-teaser-meta">
+                            <span class="article-teaser-author">{{ post.author }}</span>
+                            <span class="article-teaser-title">{{ post.standfirst }}</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+</main>
+
+{% include document_foot.html %}

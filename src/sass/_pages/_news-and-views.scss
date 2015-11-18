@@ -1,0 +1,5 @@
+.news-and-views {
+    &:not(.article) .content-wrapper {
+        padding: 0;
+    }
+}
